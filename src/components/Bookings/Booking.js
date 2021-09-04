@@ -62,6 +62,7 @@ const Booking2 = (props) => {
           <i className="fas fa-ellipsis-h"></i>
           <h4>More23</h4>
           <h1>ASSDSfsdfsdcscs</h1>
+          <h2>ffhfhfhfghg</h2>
         </div>
       </div>
     </section>
