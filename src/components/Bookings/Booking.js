@@ -9,7 +9,7 @@ import { ACCEPT_REQUEST } from "../../actions/types";
 import "react-sweet-progress/lib/style.css";
 import { connect } from "react-redux";
 
-const Booking = (props) => {
+const Booking1 = (props) => {
   const acceptRequestHandler = () => {
     props.dispatch({
       type: ACCEPT_REQUEST,
@@ -60,7 +60,8 @@ const Booking = (props) => {
         </button>
         <div className="more">
           <i className="fas fa-ellipsis-h"></i>
-          <h4>More</h4>
+          <h4>More1 fffhfhfhg</h4>
+          <h2>ffhfhfhfghg</h2>
         </div>
       </div>
     </section>
@@ -70,4 +71,4 @@ const mapStatetoProps = (state) => {
   return { services: state.services };
 };
 
-export default connect(mapStatetoProps)(Booking);
+export default connect(mapStatetoProps)(Booking1);
