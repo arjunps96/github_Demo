@@ -5,7 +5,7 @@ import BookingUser from "./BookingUser";
 import BookingDates from "./BookingDates";
 import { ACCEPT_REQUEST } from "../../actions/types";
 
-import { Progress } from "react-sweet-progress";
+
 import "react-sweet-progress/lib/style.css";
 import { connect } from "react-redux";
 
@@ -23,9 +23,7 @@ const Booking = (props) => {
           <p className="text-secondary">{props.heading}</p>
           <span className="grey time">{props.currentDate}</span>
         </div>
-        <div className="progress">
-          <Progress percent={props.progress} />
-        </div>
+        
       </div>
 
       <BookingUser
