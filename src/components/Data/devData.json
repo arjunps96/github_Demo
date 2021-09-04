@@ -1,0 +1,76 @@
+{
+  "Services": [
+    {
+      "id": "S2",
+      "title": "Badminton",
+      "type": "Sports",
+      "description": "The Badminton is for all peoples",
+      "price": 80,
+      "bookings": [
+        {
+          "id": "B1",
+          "username": "Ray Pressley",
+          "userlocation": "San Francisco",
+          "dealsDone": 12,
+          "date": ["2021-06-19T09:00:00.000Z", "2021-07-20T09:00:00.000Z"],
+          "location": "HagiwaraTea Gardenm,San francisco,CA 94118",
+          "bookingStatus": "ACTIVE"
+        },
+        {
+          "id": "B2",
+          "username": "Brad Idman",
+          "userlocation": "LA",
+          "dealsDone": 9,
+          "date": ["2021-06-19T09:00:00.000Z", "2021-07-20T09:00:00.000Z"],
+          "location": "HagiwaraTea Gardenm,San francisco,CA 94118",
+          "bookingStatus": "PAYMENT"
+        },
+        {
+          "id": "B3",
+          "username": "Joey Tribiuanni",
+          "userlocation": "Italy",
+          "dealsDone": 3,
+          "date": ["2021-06-19T09:00:00.000Z", "2021-07-20T09:00:00.000Z"],
+          "location": "HagiwaraTea Gardenm,San francisco,CA 94118",
+          "bookingStatus": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "S1",
+      "title": "Yoga and pillate Training",
+      "type": "Traning and Fitness",
+      "description": "The yoga and pillate training session is desined for all levels of trainess",
+      "price": 80,
+      "bookings": [
+        {
+          "id": "B1",
+          "username": "Ray Pressley",
+          "userlocation": "San Francisco",
+          "dealsDone": 12,
+          "date": ["2021-06-19T09:00:00.000Z", "2021-07-20T09:00:00.000Z"],
+          "location": "HagiwaraTea Gardenm,San francisco,CA 94118",
+          "bookingStatus": "ACTIVE"
+        },
+        {
+          "id": "B2",
+          "username": "Brad Idman",
+          "userlocation": "LA",
+          "dealsDone": 9,
+          "date": ["2021-06-19T09:00:00.000Z", "2021-07-20T09:00:00.000Z"],
+          "location": "HagiwaraTea Gardenm,San francisco,CA 94118",
+          "bookingStatus": "PENDING"
+        },
+        {
+          "id": "B3",
+          "username": "Joey Tribiuanni",
+          "userlocation": "Italy",
+          "dealsDone": 3,
+          "date": ["2021-06-19T09:00:00.000Z", "2021-07-20T09:00:00.000Z"],
+          "location": "HagiwaraTea Gardenm,San francisco,CA 94118",
+          "bookingStatus": "PENDING"
+        }
+      ]
+    }
+  ]
+}
